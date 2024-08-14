@@ -1,6 +1,7 @@
 name: Build binary packages
 
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron: '28 7 * * sun'
